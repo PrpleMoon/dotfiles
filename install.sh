@@ -1,5 +1,5 @@
 #!/bin/sh
-sudo pacman -S --noconfirm --needed zsh yay hyprland kitty dolphin librewolf awww qt6ct-kde qt6ct-kde kvantum ttf-jetbrains-mono-nerd papirus-icon-theme papirus-folders
+sudo pacman -S --noconfirm --needed zsh yay hyprland nwg-displays kitty dolphin librewolf awww qt6ct-kde qt6ct-kde kvantum ttf-jetbrains-mono-nerd papirus-icon-theme papirus-folders
 yay -S --noconfirm --needed waybar-cava waybar-module-pacman-updates-git catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git
 gsettings set org.gnome.desktop.interface gtk-theme "Adwaita-dark"
 gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
