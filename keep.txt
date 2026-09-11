@@ -1,0 +1,7 @@
+/hypr
+/kitty
+/rofi
+/fastfetch
+~/.zshrc
+~/.zsh
+starship.toml
