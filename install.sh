@@ -24,4 +24,4 @@ awww img ~/.config/hypr/themes/wall.jpg
 
 
 # 4. Reload
-hyprhyprctl dispatch 'hl.dsp.exit()'shutdown
+hyprhyprctl dispatch 'hl.dsp.exit()'
