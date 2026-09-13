@@ -2,7 +2,7 @@
 
 # 1. Packages
 sudo pacman -S --noconfirm --needed zsh yay hyprland nwg-displays kitty dolphin librewolf awww qt6ct-kde qt6ct-kde kvantum gsettings-desktop-schemas ttf-jetbrains-mono-nerd papirus-icon-theme papirus-folders
-yay -S --noconfirm --needed hyprshutdown waybar-cava waybar-module-pacman-updates-git catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git
+yay -S --noconfirm --needed waybar-cava waybar-module-pacman-updates-git catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git
 
 # 2. Config
 cp -rT ./.config ~/.config
@@ -24,4 +24,4 @@ awww img ~/.config/hypr/themes/wall.jpg
 
 
 # 4. Reload
-hyprshutdown
+hyprhyprctl dispatch 'hl.dsp.exit()'shutdown
