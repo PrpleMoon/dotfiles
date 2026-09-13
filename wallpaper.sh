@@ -1,2 +1,2 @@
 #!/bin/sh
-awww img ~/.config/hypr/themes/wall.jpg
+awww img ~/Wallpapers/framework.jpg

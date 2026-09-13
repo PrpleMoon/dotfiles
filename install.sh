@@ -9,6 +9,8 @@ cp -rT ./.config ~/.config
 mkdir -p ~/.zsh
 cp -rT ./.zsh ~/.zsh
 cp -f ./.zshrc ~/.zshrc
+mkdir ~/Wallpapers
+cp -rT ./Wallpapers ~/Wallpapers
 
 # 3. Themeing
 awww-daemon &
@@ -22,7 +24,6 @@ sudo cp -r src/* /usr/share/icons/Papirus
 papirus-folders -C cat-mocha-lavender --theme Papirus
 cd ..
 
-awww img ~/.config/hypr/themes/wall.jpg
 ./wallpaper.sh
 
 # 4. Reload
