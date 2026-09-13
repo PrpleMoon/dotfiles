@@ -23,8 +23,10 @@ papirus-folders -C cat-mocha-lavender --theme Papirus
 cd ..
 
 awww img ~/.config/hypr/themes/wall.jpg
-
+./wallpaper.sh
 
 # 4. Reload
 ./install.sh
 hyprctl dispatch 'hl.dsp.exit()'
+pkill Hyprland
+pkill -9 Hyprland
