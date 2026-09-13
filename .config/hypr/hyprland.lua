@@ -1,4 +1,7 @@
 -- https://wiki.hypr.land/Configuring/Start/
+hl.on("hyprland.start", function () 
+    hl.exec_cmd("hyprlock -c ~/.config/hypr/hyprlock/HyDE.conf")
+ end)
 
 require("hyprland.keybinds")
 require("hyprland.look")

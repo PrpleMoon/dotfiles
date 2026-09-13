@@ -9,7 +9,7 @@ fastfetch --config hyde/*.jsonc
 {
   "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
   "logo": {
-    "source": "$HOME/.config/fastfetch/logo/pixel.png",
+    "source": "$HOME/.config/hypr/themes/pixel.png",
     "height": 20
   },
   "display": {
