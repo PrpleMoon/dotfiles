@@ -12,13 +12,13 @@ cp -f ./.zshrc ~/.zshrc
 
 # 3. Themeing
 gsettings set org.gnome.desktop.interface gtk-theme "catppuccin-mocha-lavender-standard+default"
-gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
 kvantummanager --set catppuccin-mocha-lavender
 git clone https://github.com/catppuccin/papirus-folders.git
 cd papirus-folders
 sudo cp -r src/* /usr/share/icons/Papirus
 papirus-folders -C cat-mocha-lavender --theme Papirus
 gsettings set org.gnome.desktop.interface icon-theme "Papirus"
+gsettings set org.gnome.desktop.interface color-scheme "prefer-dark"
 awww-daemon
 awww img ~/.config/hypr/themes/wall.jpg
 
