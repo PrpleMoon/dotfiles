@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # 1. Packages
-sudo pacman -S --noconfirm --needed zsh yay hyprland nwg-displays kitty dolphin librewolf awww qt6ct-kde qt6ct-kde kvantum gsettings-desktop-schemas ttf-jetbrains-mono-nerd papirus-icon-theme papirus-folders
+sudo pacman -S --noconfirm --needed zsh yay hyprland nwg-displays kitty dolphin grim slurp wl-clipboard swappy librewolf awww qt6ct-kde qt6ct-kde kvantum gsettings-desktop-schemas ttf-jetbrains-mono-nerd papirus-icon-theme papirus-folders
 yay -S --noconfirm --needed waybar-cava waybar-module-pacman-updates-git catppuccin-gtk-theme-mocha kvantum-theme-catppuccin-git
 
 # 2. Config

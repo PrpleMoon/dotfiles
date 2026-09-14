@@ -1,7 +1,3 @@
-
---hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd(hyde.sh.menu.apps()), {
---    description = "[Launcher|Apps] Ap--[[  ]]plication Launcher"})
-
 ---------------------
 ----- PROGRAMS ------
 ---------------------
@@ -14,7 +10,8 @@ theme='style'
 local terminal    = "kitty"
 local browser = "librewolf"
 local fileManager = "XDG_CURRENT_DESKTOP=kde dolphin"
-local menu = "rofi -show drun -theme $HOME/.config/rofi/launchers/style/style.rasi"
+local apps = "rofi -show drun -theme $HOME/.config/rofi/launchers/style/style.rasi"
+local screenshot = "grim -g "$(slurp)" - | wl-copy -t image/png"
 
 
 local mainMod = "SUPER"
@@ -22,7 +19,8 @@ local mainMod = "SUPER"
 hl.bind("SUPER + Q", hl.dsp.exec_cmd(browser))
 hl.bind("SUPER + Space", hl.dsp.exec_cmd(terminal))
 hl.bind("SUPER + E", hl.dsp.exec_cmd(fileManager))
-hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd(menu))
+hl.bind("SUPER + SUPER_L", hl.dsp.exec_cmd(apps))
+hl.bind("Print", hl.dsp.exec_cmd(screenshot))
 
 
 hl.bind("SUPER + PAUSE", hl.dsp.exec_cmd("systemctl suspend"))
